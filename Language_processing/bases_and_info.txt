@@ -1,0 +1,57 @@
+semantica distributiva:
+
+El significado de la palabra puede estar dado por los valores de la palabra.
+
+Word Embedding. Se entrena. Lista de palabras con su representacion vectorial.
+
+Problemas del lenguaje:
+
+El significado de la palabra depende del contexto de la 
+
+CBOW for embedding
+
+como saber si un embedding esta bien entranado, como se mide?
+
+Se puede seguir entrenando un embedding? Sí
+
+
+Basado en semantica distributiva:
+
+Sbet pretrained embeddings. Not so good
+
+Word2vec
+FastText
+GloVe
+
+CBOW:
+We obtain the weights to understand the relation between the worlds. A hyperparameter would be the context window, which is the lenght of the words after and before the word.
+All words are inputed at the same time. 
+It needs one-hot as input
+
+Para construiri el DATASET (x, y)
+
+x: PALABRAS DE CONTEXTO (ventana de tamañ0 CW=2)
+Y: Palabra objectivo
+
+We are trying to predict a word by its context
+
+Ejemplo:
+ve muchas ciudades egipcias ten siempre itaca mente
+
+[58, 32, 60, 63] [59]
+[32, 59, 63, 64] [60]
+
+[58, 32, 59, 60, 63, 644, 0, 65]
+
+aplicar padding
+
+
+dado un vocubulario y un tamaño de ventana, se puede crear un dataset
+
+# hiperparametros
+Tamaño máximo de ventana. 
+tamaño de representación de palabra.
+
+cbow:
+roxin.github.io/wevi/
+is it sensible to overfitting?
