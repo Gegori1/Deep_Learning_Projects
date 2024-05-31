@@ -17,3 +17,8 @@ A project aimed at identifying healthy or ill lungs and performing image segment
 A deep learning project focused on identifying diseases in plants through image analysis.
 
 For more detailed information about each specific project, please refer to the README file located in the respective project directory.
+
+- **Action_Video_Detection**: [Action_Video_Detection/README.md](Action_Video_Detection/README.md)
+- **Language_processing**: [Language_processing/README.md](Language_processing/README.md)
+- **Lung_Covid_SegmentationClassification**: [Lung_Covid_SegmentationClassification/README.md](Lung_Covid_SegmentationClassification/README.md)
+- **Plant_disease_identification**: [Plant_disease_identification/README.md](Plant_disease_identification/README.md)
